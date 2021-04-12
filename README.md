@@ -35,7 +35,7 @@ When working on the same project as a team, with many people making different ch
 On the GitHub work flow we follow some basic steps:
 
 - First create a remote repository on Github website
-- On your local project directory, you initialize a git folder with the command `git ini`
+- On your local project directory, you initialize a git folder with the command `git init`
 - Add the files to your local repo to start the project with the command `git add . `
 - Commit the first changes with a readable and instructive message using: ```git commit -m '<message>'
 - Add a remote repository by using `git remote add origin https://...`
@@ -50,3 +50,11 @@ My learning on this stage was relatively easy, since I was already familiar with
 I was just a bit confused with the choice of terminal, I've been using zsh for quite some time and this section of the course they suggested the usage of bash, but I decided to stick with zsh since I was already used to it.
 
 The learning exploration was very intuitive and informative, I wouldn't change a thing. I'm very happy with the content the course is proving.
+
+## Track and Commit
+
+On this section, we've covered the concepts of stage and commit.
+
+When you commit a file you are concluding the changes you've made on the code and getting ready to be push to the remote repo. Commits are always followed by a descriptive message.
+
+Stage is basically prepare your files to be committed, so whenever you make a change to your code you will first add or stage those files and then commit with a message to describe the changes you've made.
