@@ -58,3 +58,15 @@ On this section, we've covered the concepts of stage and commit.
 When you commit a file you are concluding the changes you've made on the code and getting ready to be push to the remote repo. Commits are always followed by a descriptive message.
 
 Stage is basically prepare your files to be committed, so whenever you make a change to your code you will first add or stage those files and then commit with a message to describe the changes you've made.
+
+## Branch, Pull, Merge
+
+This is the fundamental topic of the GitHub work flow.
+
+You create a branch of the repo, make modifications and make a pull request to the "owner" and merge your branch with the main branch.
+
+That is the basic flow of most of the collaborative projects.
+
+By definition, "main" is the original project created by someone and pushed to github, and a "branch" is a "copy" of the main project where you can make modifications and test without changing the original.
+
+This concept was very intuitive and easy to understand, and I find it fascinating when I remember the old days where you would have to save all those files (project-version-1, project-version-2, final-version etc...), it would've been a mess. Version control and github have changed the game.
